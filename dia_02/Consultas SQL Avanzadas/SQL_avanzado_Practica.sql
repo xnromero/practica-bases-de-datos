@@ -178,8 +178,8 @@ SELECT l.titulo
 FROM prestamo p
 INNER JOIN libro l
 ON p.id_libro = l.id_libro
-WHERE fecha_devolucion = DATE("2021-07-16")
+WHERE fecha_devolucion = DATE("2021-07-16");
 
-
+SHOW INDEX FROM libro;
 
 
